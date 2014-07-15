@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcoMoon.Build", "src\IcoMoon.Build\IcoMoon.Build.csproj", "{ED1F2EC3-126C-4514-AF71-68C19D374BCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcoMoon", "src\IcoMoon\IcoMoon.csproj", "{6F9BCDF4-626F-4A3D-B4AA-18CF17CDF555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcoMoon.iOS", "src\IcoMoon.iOS\IcoMoon.iOS.csproj", "{0349F353-A149-48E6-8B0D-FC8AF14868F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0349F353-A149-48E6-8B0D-FC8AF14868F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0349F353-A149-48E6-8B0D-FC8AF14868F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0349F353-A149-48E6-8B0D-FC8AF14868F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0349F353-A149-48E6-8B0D-FC8AF14868F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F9BCDF4-626F-4A3D-B4AA-18CF17CDF555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F9BCDF4-626F-4A3D-B4AA-18CF17CDF555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9BCDF4-626F-4A3D-B4AA-18CF17CDF555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9BCDF4-626F-4A3D-B4AA-18CF17CDF555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED1F2EC3-126C-4514-AF71-68C19D374BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED1F2EC3-126C-4514-AF71-68C19D374BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED1F2EC3-126C-4514-AF71-68C19D374BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED1F2EC3-126C-4514-AF71-68C19D374BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = src\IcoMoon.Build\IcoMoon.Build.csproj
+	EndGlobalSection
+EndGlobal
