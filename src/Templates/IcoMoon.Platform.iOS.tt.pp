@@ -1,4 +1,4 @@
-﻿<#@ template language="C#" debug="true" hostspecific="true" #>
+<#@ template language="C#" debug="true" hostspecific="true" #>
 <#@ assembly name="System.Core" #>
 <#
 	var ns = "$rootnamespace$";
@@ -11,11 +11,11 @@ using IcoMoon.Forms.Platform.iOS;
 using <#= ns.Replace(".iOS", string.Empty) #>;
 using <#= ns #>;
 
-[assembly: ExportImageSourceHandler(typeof(IconImageSource), typeof(IconImageSourceRenderer))]
+[assembly: Dependency(typeof(IconImageSourceRenderer))]
 
 namespace <#= ns #>
 {
-	public class IconImageSourceRenderer : BaseIconImageSourceRenderer<IconImageSource, Icons>
+	public class IconImageSourceRenderer : IconRenderer<Icons>
 	{
 	}
 }

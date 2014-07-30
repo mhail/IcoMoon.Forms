@@ -54,7 +54,7 @@ Target "BuildBuild" (fun _ ->
 )
 
 
-let version = "0.0.0.3"
+let version = "0.0.1.3"
 
 Target "CreateNugetPackage" (fun _ ->
     let pcl = "portable-win+net45+wp80+MonoAndroid10+MonoTouch10"
